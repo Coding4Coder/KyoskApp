@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Kyosk</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="m-container gr-bg">
+            <!-- header start here -->
+            <div class="row">
+                <div class="col">
+                    <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+                </div>
+                <div class="col">
+                   
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="img/pw.png" class="pw-logo" alt="pw">
+                </div>
+            </div>
+            <!-- header ends here -->
+            <div class="frm-container" id="review-policy">
+                <form action="">
+
+                    <div class="row">
+                        <div class="col">
+                            <p class="title-policy-details-p"></p>
+                        </div>
+                    </div>
+                  
+                    <div class="row">
+                        <div class="col">
+                            <ul class="nav nav-tabs policy-tab" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="my-policies-tab" data-bs-toggle="tab"
+                                        data-bs-target="#my-policies" type="button" role="tab"
+                                        aria-controls="my-policies">My Policies</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="my-claims-tab" data-bs-toggle="tab"
+                                        data-bs-target="#my-claims" type="button" role="tab"
+                                        aria-controls="my-claims">My Claims</button>
+                                </li>
+
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="my-policies" role="tabpanel"
+                                    aria-labelledby="my-policies-tab">
+                                <!-- card 1 start-->
+                                    <div class="dv-card">
+                                        <div class="row">
+                                            <div class="col"><span class="policy-title">Policy Name</span></div>
+                                            <div class="col">
+                                                <button type="button"
+                                                    class="btn btn-primary btn-completed">COMPLETED</button>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col"><span class="policy-number">P245908</span></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col"><span class="policy-type">Yearly</span></div>
+                                        </div>
+                                    </div>
+                                      <!-- card 1 ends-->
+                                      <!-- card 2 start-->
+                                    <div class="dv-card">
+                                        <div class="row">
+                                            <div class="col"><span class="policy-title">Policy Name</span></div>
+                                            <div class="col">
+                                                <button type="button"
+                                                    class="btn btn-primary btn-completed btn-pending">PENDING</button>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col"><span class="policy-number">P245908</span></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col"><span class="policy-type">Yearly</span></div>
+                                        </div>
+                                    </div>
+                                      <!-- card 2 ends-->
+                                      <!-- card 3 start-->
+                                    <div class="dv-card">
+                                        <div class="row">
+                                            <div class="col"><span class="policy-title">Policy Name</span></div>
+                                            <div class="col">
+                                                <button type="button"
+                                                    class="btn btn-primary btn-completed">COMPLETED</button>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col"><span class="policy-number">P245908</span></div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col"><span class="policy-type">Yearly</span></div>
+                                        </div>
+                                    </div>
+                                      <!-- card 3 ends-->
+                                      <div class="row">
+                                            <div class="col">
+                                                <p class="no-policy"><img src="img/no-policy-found.png" alt="no policy found"></p>
+                                                <p class="no-policy-txt">No Policies Found!!!</p>
+                                            </div>
+                                      </div>
+                                </div>
+                                <div class="tab-pane fade" id="my-claims" role="tabpanel"
+                                    aria-labelledby="my-claims-tab">
+                                        <!-- card 1 start-->
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="no-policy"><img src="img/under-development.png" alt="Under Development"></p>
+                                                <p class="no-policy-txt">Sorry, Page is still under construction. We will be back soon!</p>
+                                            </div>
+                                      </div>
+                                        <!-- card 1 ends-->
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                  
+                    <div class="row">
+                        <div class="col">
+                            <p class="txt-label"></p>
+
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col">
+
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col btm-space"></div>
+                    </div>
+
+
+                </form>
+
+            </div>
+        </div>
+        <script>
+            const mpesaPayment = () => {
+                window.location.assign("mpesa-payment.html")
+            }
+        </script>
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

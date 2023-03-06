@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Kyosk</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="m-container gr-bg">
+            <!-- header start here -->
+            <div class="row">
+                <div class="col">
+                    <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+                </div>
+                <div class="col">
+                    <div class="profile-pic"><img src="img/user-profile-pic.png" alt="user pic"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="img/pw.png" class="pw-logo" alt="pw">
+                </div>
+            </div>
+            <!-- header ends here -->
+            <div class="frm-container" id="review-policy">
+                <form action="">
+    
+                    <div class="row">
+                        <div class="col">
+                            <p class="title-policy-details">Review the policy details here</p>
+                        </div>
+                    </div>
+                    <!-- card 1 start-->
+                    <div class="row">
+                        <div class="col">
+                            <div class="card text-dark bg-white mb-3">
+                               
+                                <div class="card-body details-box">
+                                    <div class="data-row">
+                                        <div class="column-left"><strong>Cover Details</strong></div>
+                                        <div class="column-right"></div>
+                                    </div>
+                                    <div class="data-row">
+                                        <div class="column-left">Plan</div>
+                                        <div class="column-right">OPTION_1</div>
+                                    </div>
+                                    <div class="data-row">
+                                        <div class="column-left">Underwriter</div>
+                                        <div class="column-right" style="line-height: 15px;">Britam Insurance</div>
+                                    </div>
+                                    <div class="data-row">
+                                        <div class="column-left">Cover</div>
+                                        <div class="column-right">SME</div>
+                                    </div>
+                                    <div class="data-row">
+                                        <div class="column-left"><strong>Cover Limits</strong></div>
+                                        <div class="column-right"></div>
+                                    </div>
+                                    <div class="data-row">
+                                        <div class="column-left">Fire</div>
+                                        <div class="column-right">50,000 KSH</div>
+                                    </div>
+                                    <div class="data-row">
+                                        <div class="column-left">Burglary(Theft By forced Entry)</div>
+                                        <div class="column-right">25,000 KSH</div>
+                                    </div>
+                                    <div class="data-row">
+                                        <div class="column-left">BI By Fire</div>
+                                        <div class="column-right">4,000 KSH</div>
+                                    </div>
+                                    <div class="data-row">
+                                        <div class="column-left"><strong>Additional Covers</strong></div>
+                                        <div class="column-right"></div>
+                                    </div>
+                                    <div class="data-row">
+                                        <div class="column-left">Personal Accident</div>
+                                        <div class="column-right">4,000 KSH</div>
+                                    </div>
+                                    <div class="data-row">
+                                        <div class="column-left">BI Due To Hospitalization</div>
+                                        <div class="column-right">4,000 KSH</div>
+                                    </div>
+
+                                    <div class="data-row bdr-top-dot bdr-btm-dot">
+                                        <div class="column-left txt-blue">Base Price</div>
+                                        <div class="column-right txt-blue">1,325 KSH</div>
+                                    </div>
+
+                                    <div class="data-row">
+                                        <div class="column-left"><strong>Time</strong></div>
+                                        <div class="column-right"></div>
+                                    </div>
+                                    <div class="data-row">
+                                        <div class="column-left">Start Date</div>
+                                        <div class="column-right">28/03/2023</div>
+                                    </div>
+                                    <div class="data-row">
+                                        <div class="column-left">Policy</div>
+                                        <div class="column-right">Yearly</div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- card 1 ends -->
+                    <div class="row mt-2">
+                        <div class="col">
+                            <button id="submit" type="button" class="btn btn-primary btn-lg btn-purple" onclick="gotoPersonalDetails()">Proceed</button>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <p class="txt-label"></p>
+
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col">
+
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col btm-space"></div>
+                    </div>
+
+
+                </form>
+
+            </div>
+        </div>
+        <script>
+            const gotoPersonalDetails = () => {
+                window.location.assign('review-personal-details.html');
+            }
+        </script>
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
